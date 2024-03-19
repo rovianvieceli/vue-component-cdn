@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VueJS - By CDN</title>
+
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/style.css">
+
+    <!-- VueJS from CDN -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <cart-display :cart="cart"></cart-display>
+
+        <product-display @add-cart="addCart"></product-component>
+    </div>
+
+    <!-- Arquivo principal do Vue -->
+    <script src="main.js"></script>
+
+    <!-- Componente do produto -->
+    <script src="components/product.js"></script>
+
+    <!-- Componente do cart -->
+    <script src="components/cart.js"></script>
+
+    <!-- Monta o vue js -->
+    <script> app.mount("#app")</script>
+</body>
+
+</html>
