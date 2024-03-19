@@ -28,6 +28,10 @@ No momento de criação desse repositório foi utilizado o Vue.js na versão 3 (
 * [Vue.Js - Quick Start](https://vuejs.org/guide/quick-start.html)
 * [VScode - Editor](https://code.visualstudio.com/)
 
+## Demonstração
+
+[Vue CDN Demonstração](https://rovianvieceli.github.io/vue-component-cdn/)
+
 ## Demonstração das Telas
 
 * Ao clicar no Botão azul muda a camiseta para cor azul e o nome.
