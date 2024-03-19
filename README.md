@@ -27,3 +27,17 @@ No momento de criação desse repositório foi utilizado o Vue.js na versão 3 (
 * [Vue.Js - Introduction](https://vuejs.org/guide/introduction.html)
 * [Vue.Js - Quick Start](https://vuejs.org/guide/quick-start.html)
 * [VScode - Editor](https://code.visualstudio.com/)
+
+## Demonstração das Telas
+
+* Ao clicar no Botão azul muda a camiseta para cor azul e o nome.
+
+![alt text](assets/images/show-t-shirt-blue.png)
+
+* Ao clicar no Botão vermelho muda a camiseta para cor vermelhor e o nome.
+
+![alt text](assets/images/show-t-shirt-red.png)
+
+Ao clicar no Botão Adicionar ao carrinho aumenta o número de itens do carrinho
+
+![alt text](assets/images/add-t-shirt-cart.png)

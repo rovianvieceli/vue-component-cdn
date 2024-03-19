@@ -8,9 +8,6 @@ const app = createApp({
       cart.value += 1;
     };
 
-    return {
-      cart,
-      addCart,
-    };
+    return { cart, addCart };
   },
 });

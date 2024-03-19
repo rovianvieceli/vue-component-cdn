@@ -3,5 +3,5 @@ app.component("cart-display", {
 
   setup() {},
 
-  template: `<div class="cart"> Cart: {{ cart }} </div>`,
+  template: `<div class="cart"> Carrinho: {{ cart }} </div>`,
 });
